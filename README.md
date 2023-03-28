@@ -1,1 +1,3 @@
-# quiz-time
+### Credits
+
+jourdy288 - images

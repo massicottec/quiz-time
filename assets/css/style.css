@@ -1,0 +1,97 @@
+:root {
+    --backgroundColorBox: #213197;
+    --backgroundColor: grey;
+    /* #2C82D8 */
+    /* 0317cb */
+}
+
+@font-face {
+    font-family: Final Fantasy, sans-serif;
+    src: url(https://fonts.cdnfonts.com/css/final-fantasy);
+}
+
+header {
+    display: flex;
+    width: 100%; 
+    color: #fff;
+    background-color: var(--backgroundColorBox);
+    justify-content: center;
+    border-radius: 5px;
+    border-width: 2px;
+    border: 2px solid #fff;
+    box-shadow: black 0px 2px 8px 0px;
+}
+
+header h1 {
+    font-size: 75px;
+}
+
+.banner-img {
+    background-image: url("../images/banner-image.png");
+    width: 40%;
+    margin: 5px;
+    height: auto;
+    
+}
+
+body {
+    background-color: var(--backgroundColor);
+}
+
+a {
+    color: #fff;
+}
+
+#timer,
+#stats {
+    margin: 10px;
+    padding: 5px;
+    color: #fff;
+    background-color: var(--backgroundColorBox);
+    border-radius: 5px;
+    border-width: 2px;
+    border: 2px solid #fff;
+    box-shadow: black 0px 2px 8px 0px;
+}
+
+#timer {
+    width: 10%;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+#starter-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 74%;
+    height: 59vh;
+    font-size: 25px;
+    color: #fff;
+    margin-left: 13%;
+    background-color: var(--backgroundColorBox);
+    border-radius: 5px;
+    border-width: 2px;
+    border: 2px solid #fff;
+    box-shadow: black 0px 2px 8px 0px;
+}
+
+#begin {
+    width: 10%;
+    height: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen {
+    
+}
