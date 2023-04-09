@@ -1,37 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./assets/css/reset.css">
-        <link rel="stylesheet" href="./assets/css/style-quiz.css">
-        <title>FF Quiz Time</title>
-    </head>
 
-    <body>
-        <header>
-            <h1>Final Fantasy Quiz Time</h1>
-        </header>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style-quiz.css">
+    <title>FF Quiz Time</title>
+</head>
 
-        <section class="banner">   
-            <nav>
-                <a href="#score">View Highscores</a>        
-            </nav>
-            <div id="timer">
-                <p>Time:</p>
-            </div>
-        </section>
+<body>
+    <header id=" banner">
+        <h1>Final Fantasy Quiz Time</h1>
+    </header>
 
-        <div>
-            <p id="question"></p>
-            <ul id="option-container">
-                <button class="option" id="op1">option1</button>
-                <button class="option" id="op2">option2</button>
-                <button class="option" id="op3">option3</button>
-                <button class="option" id="op4">option4</button>
-            </ul>
+    <section>
+        <nav id="stats">
+            <a href="#score">View Highscores</a>
+        </nav>
+
+        <div id="timer">
+            <span>Time:</span>
         </div>
-        <script src="./assets/js/quiz-script.js"></script>
-    </body>
+    </section>
+
+    <div id="starter-box">
+        <p id="question">Which of the following characters appear in every Final Fantasy title?</p>
+        <span id="option-container">
+            <button type="button" class="btn" id="optA">Biggs</button>
+            <button type="button" class="btn" id="optB">Wedge</button>
+            <button type="button" class="btn" id="optC">Cid</button>
+            <button type="button" class="btn" id="optD">Mog</button>
+        </span>
+        <p id="outcome"></p>
+        <p id="test"></p>
+    </div>
+    <script src="./assets/js/quiz-script.js"></script>
+</body>
+
+<footer>
+    <img src="./assets/images/banner-image.png" alt="banner of the final fantasy game logos" class="banner-img">
+</footer>
+
 </html>
