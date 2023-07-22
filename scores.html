@@ -15,24 +15,27 @@
         <h1>Final Fantasy Quiz Time</h1>
     </header>
 
-    <section>
-        <nav id="stats">
-            <a href="#score">View Highscores</a>
-        </nav>
-
-        <div id="timer">
-            <span>Time:</span>
-        </div>
-    </section>
-
     <div id="starter-box">
+        <div>
+            <label for="scores" class="form">Please input your intials to submit score</label><br>
+            <input type="text" class="form-control" id="initialInput" placeholder="Initials"><br>
+            <button id="scoreSubmit">Submit</button>
+        </div>
         <h2>Scores</h2>
-        <ul>
-            <li>place holder</li>
+        <ul id="score">
         </ul>
 
-        <button id="begin"><a href="quiz-page.html">Begin</a></button>
+        <button id="reset"><a href="index.html">Try Again</a></button>
     </div>
+
+    <script src="./assets/js/scores.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+
 </body>
 
 <footer>

@@ -1,0 +1,6 @@
+#reset {
+    color: #fff;
+    background-color: var(--backgroundColor);
+    width: 10%;
+    height: 30px;
+}
